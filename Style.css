@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background: #000;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+}
+.header h2{
+    color: red;
+    padding: 20px;
+    font-size: 33px;
+    text-align: center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.header h2:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.row{
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background: #000;
+}
+.col{
+    width: 250px;
+    height: 400px;
+    margin-left: 10px;
+    background: rgb(45, 45, 45);
+    border-radius: 4px;
+}
+img{
+    width: 200px;
+    height: 300px;
+    padding: 20px 20px 5px 20px;
+}
+h4,h5{
+    text-align: center;
+    color: white;
+
+}
+#purchase{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 23px;
+    margin-left: 80px;
+    margin-top: 4px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background: #000;
+    color: white;
+    text-align: center;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+    background: url(https://cdn.vectorstock.com/i/preview-1x/69/88/book-club-cartoon-banner-woman-reading-vector-38156988.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.section{
+    margin-top: 10px;
+}
+#purchase:hover{
+    cursor: pointer;
+}
